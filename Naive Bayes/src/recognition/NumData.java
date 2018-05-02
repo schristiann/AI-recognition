@@ -1,14 +1,13 @@
+package recognition;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FaceData {
-	int valid;
+public class NumData {
+	String valid;
 	
 	Map<Integer, Integer> lineData=new HashMap();
 	
-	public FaceData(int valid){
+	public NumData(String valid){
 		this.valid=valid;
 	}
-	
-	
 }

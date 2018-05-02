@@ -1,3 +1,4 @@
+package recognition;
 
 public class Statistics {
 		int lineNum;
